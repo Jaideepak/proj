@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+     
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    column-gap: 60px;
+}
+
+ul,
+li,
+h1 {
+    display: inline;
+    column-gap: 20px;
+}
+
+ul {
+    justify-content: space-between;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+li a:hover {
+    color: orange;
+}
+
+
+
+
+.content{
+ min-height: 100vh;
+ width: 100%;
+ background-image: linear-gradient(rgba(4, 9, 30,0.7),rgba(4,9,30,0.7)),url(https://images.shiksha.com/mediadata/images/1602131725phpLQmAQp.jpeg);
+ background-size: cover;
+ background-position: center;
+}
+
+
+
+
+
+.img1{
+    width: 220px;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    background-color: aliceblue;
+    margin-right: 60px;
+}
+.courses{
+    text-align: center;
+    padding: 40px;
+
+    
+}
+.f{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    background-color: aliceblue;
+    
+}
+.form1{
+    text-align: center;
+    padding: 50px;
+    
+}
+.about{
+    background-color: aliceblue;
+    padding: 50px;
+}
